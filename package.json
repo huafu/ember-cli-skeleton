@@ -7,9 +7,9 @@
     "test": "tests"
   },
   "scripts": {
-    "start": "ember server",
-    "build": "ember build",
-    "test": "ember test"
+    "start": "make serve",
+    "build": "make build",
+    "test": "make test"
   },
   "repository": "https://github.com/huafu/ember-cli-skeleton",
   "engines": {
@@ -25,6 +25,7 @@
     "ember-cli-ic-ajax": "0.1.1",
     "ember-cli-inject-live-reload": "^1.0.2",
     "ember-cli-qunit": "0.1.0",
+    "ember-cli-sass": "^1.0.2",
     "ember-data": "1.0.0-beta.10",
     "ember-foundation": "0.1.0",
     "express": "^4.8.5",
